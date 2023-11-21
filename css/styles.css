@@ -6,9 +6,13 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
+}
+
+.orange-text {
+    color: var(--orange);
 }
 
 .list {
@@ -46,24 +50,29 @@ body {
 
 .made-title {
     color: var(--primary-text-color);
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 1.17;
-        letter-spacing: -0.72px;
-        text-transform: uppercase;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
 }
 
-.made-sub-title{
+.made-sub-title {
     color: var(--primary-text-color);
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.33;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
 }
 
-.made-text{
-    color: var(--primary-text-color)
-        font-size: 14px;
-        line-height: 1.22;
-        letter-spacing: -0.28px;
+/* .made-list {
+  list-style: ;
+} */
+.made-item {}
+
+.made-text {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.28px;
 }
