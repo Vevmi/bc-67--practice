@@ -3,32 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Simply Chocolate</title>
   </head>
+
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"><i>SIMPLY</i> CHOCOLATE</a>
-        <img src="./imgs/chocolate.png" alt="logo" />
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">How it's made</a></li>
-          <li><a href="">Chocolate is loved</a></li>
-        </ul>
-        <ul>
-          <li>
-            <a href=""><img src="./imgs/Frame 52.png" alt="Facebook" /></a>
+    <header class="page-header">
+      <nav class="page-nav">
+        <a class="link logo" href="./index.html">
+          <i>Simply</i> Chocolate
+          <img src="./images/chocolate.png" alt="logo" width="24" />
+        </a>
+
+        <ul class="list nav-list">
+          <li class="nav-item">
+            <a class="link nav-link" href="./index.html">Home</a>
           </li>
-          <li>
-            <a href=""
-              ><img src="./imgs/icon-instagram.png" alt="Instagram"
-            /></a>
+          <li class="nav-item">
+            <a class="link nav-link" href="">How it's made?</a>
           </li>
-          <li>
-            <a href=""><img src="./imgs/icon-twitter.png" alt="twitter" /></a>
+          <li class="nav-item">
+            <a class="link nav-link" href="">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
+
+      <ul class="list social-list">
+        <li class="social-item">
+          <a class="link social-link" href="">
+            <img src="./images/facebook.jpg" alt="facebook" width="24" />
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="link social-link" href="">
+            <img src="./images/instagram.jpg" alt="instagram" width="24" />
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="link social-link" href="">
+            <img src="./images/twitter.jpg" alt="twitter" width="24" />
+          </a>
+        </li>
+      </ul>
     </header>
     <main>
       <section>
@@ -36,12 +60,12 @@
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button>Buy now</button>
-        <a href="">How it’s made</a>
+        <button type="button"></button>
+        <a href="">How it's made</a>
         <a href="">scroll down</a>
       </section>
       <section>
-        <h2 style="display: none">Our Benefits</h2>
+        <h2 style="display: none">Benefits</h2>
         <ul>
           <li>
             <h3>Unsurpassed taste</h3>
@@ -77,39 +101,106 @@
         <h2>It all adds up to one exceptional taste sensation</h2>
         <ul>
           <li>
-            <img src="./ingridients/img-1.png" alt="MILK CHOCOLATE" />
+            <img
+              src="./images/img-1.png"
+              alt="MILK CHOCOLATE"
+              width="214"
+              height="160"
+            />
             <h3>MILK CHOCOLATE</h3>
           </li>
           <li>
-            <img src="./ingridients/img-2 (1).png" alt="MILK" />
+            <img src="./images/img-2.png" alt="MILK" width="214" height="160" />
             <h3>MILK</h3>
           </li>
           <li>
-            <img src="./ingridients/img-3 (1).png" alt="NUTS" />
+            <img src="./images/img-3.png" alt="NUTS" width="214" height="160" />
             <h3>NUTS</h3>
           </li>
           <li>
             <img
-              src="./ingridients/img-4 (1).png"
+              src="./images/img-4.png"
               alt="SEMI - SWEET CHOCOLATE"
+              width="214"
+              height="160"
             />
             <h3>SEMI - SWEET CHOCOLATE</h3>
           </li>
           <li>
-            <img src="./ingridients/img-5 (1).png" alt="CACAO" />
+            <img
+              src="./images/img-5.png"
+              alt="CACAO"
+              width="214"
+              height="160"
+            />
             <h3>CACAO</h3>
           </li>
           <li>
-            <img src="./ingridients/img-6 (1).png" alt="RASPBERRY" />
+            <img
+              src="./images/img-6.png"
+              alt="RASPBERRY"
+              width="214"
+              height="160"
+            />
             <h3>RASPBERRY</h3>
           </li>
           <li>
-            <img src="./ingridients/img-7.png" alt="COCONUT OIL" />
+            <img
+              src="./images/img-7.png"
+              alt="COCONUT OIL"
+              width="214"
+              height="160"
+            />
             <h3>COCONUT OIL</h3>
           </li>
         </ul>
       </section>
-      <section></section>
+      <section>
+        <h2 class="made">
+          How it’s <span style="color: var(--orange)">made</span>?
+        </h2>
+        <img
+          src="./images/made/image.jpg"
+          alt="chocolate"
+          height="400"
+          width="600"
+        />
+        <h3 class="made-sub-title">
+          Try our chocolates today and discover the perfect balance of flavor
+        </h3>
+        <ul class="list made-list">
+          <li class="made-item">
+            <p class="made-text">
+              Heat the milk in a saucepan without bringing it to a boil. Add
+              sugar and cocoa powder.
+            </p>
+          </li>
+          <li class="made-item">
+            <p class="made-text">
+              At the same time, prepare a water bath. Melt the butter on it.
+            </p>
+          </li>
+          <li class="made-item">
+            <p class="made-text">
+              "Mix" the milk mixture and already liquid butter. Mix thoroughly
+              with a silicone spatula so that the mass becomes uniform and
+              silky.
+            </p>
+          </li>
+          <li class="made-item">
+            <p class="made-text">
+              Heat the mixture over low heat, letting it barely boil.
+            </p>
+          </li>
+          <li class="made-item">
+            <p class="made-text">
+              Pour the chocolate into special containers (can be replaced with
+              ice molds). Allow to cool and harden.
+            </p>
+          </li>
+        </ul>
+      </section>
     </main>
+    <footer></footer>
   </body>
 </html>
